@@ -110,6 +110,8 @@ public class ShipView : MonoBehaviour, IDamagable
 
     private void Update()
     {
+        if (!isCutSceneOver)
+            return;
         if (Input.GetButtonDown("Jump"))
         {
             controller.fire(bulletSpawner, bulletDamage);
