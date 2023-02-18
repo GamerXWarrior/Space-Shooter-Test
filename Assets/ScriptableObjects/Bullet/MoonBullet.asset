@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182a6c6db6822a447b65cb1fb5201330, type: 3}
+  m_Name: MoonBullet
+  m_EditorClassIdentifier: 
+  BulletWeaponType: 4
+  bulletSpeed: 30
+  Damage: 100
+  bulletView: {fileID: 7544664975162564175, guid: a0667efc15eab4b4794ecf47addf0bd0, type: 3}
